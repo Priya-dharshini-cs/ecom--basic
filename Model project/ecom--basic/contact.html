@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--link css-->
+    <link rel="stylesheet" href="model.css">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Girlzy</h1>
+        <div class="navbar-links">
+            <p class="navbar-links"><a href="index.html">Home</a></p>
+            <p class="navbar-links"><a href="collection.html">Collections</a></p>
+            <p class="navbar-links"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="SidenavShow()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--sidebar-->
+    <div class="side-navbar">
+        <p style="text-align: right; color: white;margin:10px  ;" onclick="SidenavClose()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-links"><a href="index.html">Home</a></p>
+            <p class=" side-navbar-links"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-links"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <div class="Contact">
+   <div class="contact-section">
+    <div class="s1">
+        <i class="fa-solid fa-location-dot"></i>
+        <h3>Address</h3>
+        <p>No.28,Road No.7,Anna nagar, chennai.</p>
+    </div>
+    <div class="s1">
+        <i class="fa-solid fa-phone"></i>
+        <h3>Phone</h3>
+        <p>+91 92933939291</p>
+        <p>+91 7777888877</p>
+    </div>
+    <div class="s1">
+        <i class="fa-solid fa-envelope"></i>
+        <h3>Email Us</h3>
+        <p>Girlzyecom@gmail.com</p>
+
+    </div>
+   </div>
+   <div class="register">
+    <h2 id="topic">Send us a message</h2>
+    <p id="paragraph">If you have any queries related to our services ,</p><p>you can send me a message from here.It's my pleasure to help you</p>
+    <from>
+        <input type="text" placeholder="Name" name="name"/><br>
+        <input type="text" placeholder="Email" name="email"/><br>
+        <input type="text" placeholder="any comments or your query"><br>
+        <button id="btn">send</button>
+
+    </from>
+   </div>
+</div>
+
+    <div class="footer">
+        <h2>Girlzy</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, labore?</p>
+        <p>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        <p>@2024 Girlzy</p>
+
+
+        </p>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
